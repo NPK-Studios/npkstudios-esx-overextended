@@ -1,8 +1,14 @@
-<h1 align='center'>NPKTeam ESX + Overextended Recipe</a></h1><p align='center'><b><a href='https://discord.esx-framework.org/'>ESX Discord</a> - <a href='https://esx-framework.org/'>ESX Website</a> - <a href='https://docs.esx-framework.org/legacy/installation'>ESX Documentation</a></b></h5>
+<p align='center'><img src='NPKStudios_logo.png' alt='NPKStudios' width='200'></p>
 
-<p align='center'><b><a href='https://coxdocs.dev/'>Overextended Docs</a> - <a href='https://discord.coxdocs.dev/'>OX Discord</a></b></h5>
+<h1 align='center'>NPKStudios ESX + Overextended Recipe</h1>
 
-**This is a custom recipe combining ESX Legacy with Overextended resources, created by NPKTeam.**
+<p align='center'><b><a href='https://discord.esx-framework.org/'>ESX Discord</a> - <a href='https://www.esx-framework.org/'>ESX Website</a> - <a href='https://docs.esx-framework.org/en'>ESX Documentation</a></b></p>
+
+<p align='center'><b><a href='https://overextended.dev/'>Overextended Docs</a> - <a href='https://discord.overextended.dev/'>OX Discord</a></b></p>
+
+<p align='center'><b><a href='https://npkstudios.pl'>NPKStudios Website & Store</a> - <a href='https://discord.gg/npkstudios'>NPKStudios Discord</a></b></p>
+
+**This is a custom recipe combining ESX Legacy with Overextended resources, created by NPKStudios.**
 
 ## What's Included
 
@@ -17,7 +23,7 @@ For a taste of what's available:
 - esx_ambulancejob: Adds a death and respawn system while allowing players to work as EMS to heal and revive others
 
 ### Overextended Resources
-This recipe includes the following Overextended resources:
+This recipe includes the following Overextended resources (always downloaded from the latest GitHub release):
 - **ox_lib**: Core library providing UI components, callbacks, and utilities
 - **oxmysql**: High-performance MySQL wrapper with advanced features
 - **ox_inventory**: Modern slot-based inventory system with metadata support
@@ -27,8 +33,10 @@ This recipe includes the following Overextended resources:
 
 All Overextended resources are pre-configured in `overextended.cfg` with optimal settings.
 
+Game build: `3889` (The Kortz Center Heist).
+
 Many more resources are included in this Recipe, or you can browse the [Cfx.re Releases board](https://forum.cfx.re/tag/esx) for more.
 
 ---
 
-**Maintained by NPKTeam**
+**Maintained by [NPKStudios](https://npkstudios.pl)** - [Discord](https://discord.gg/npkstudios)

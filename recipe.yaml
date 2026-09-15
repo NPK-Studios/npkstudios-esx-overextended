@@ -1,7 +1,7 @@
 $engine: 3
 $onesync: on
-name: NPKTeam ESX + Overextended
-author: NPKTeam
+name: NPKStudios ESX + Overextended
+author: NPKStudios
 description: Custom ESX Legacy recipe with Overextended resources (ox_lib, ox_inventory, ox_target, ox_fuel, ox_doorlock, oxmysql), containing Jobs, Housing, Vehicles & more!
 
 tasks:
@@ -16,7 +16,7 @@ tasks:
   
   # Download and prepare server.cfg
   - action: download_github
-    src: https://github.com/Nirwos/npkteam-esx-overextended
+    src: https://github.com/NPK-Studios/npkstudios-esx-overextended
     ref: main
     dest: ./tmp/recipe
 
@@ -29,15 +29,15 @@ tasks:
     dest: ./overextended.cfg
 
   - action: move_path
-    src: ./tmp/recipe/NPKTeam.png
-    dest: ./NPKTeam.png
+    src: ./tmp/recipe/NPKStudios.png
+    dest: ./NPKStudios.png
 
   # Download basic resources and ESX dependencies
 
   - action: connect_database
 
   - action: download_github
-    src: https://github.com/esx-framework/esx-core
+    src: https://github.com/esx-framework/esx_core
     ref: main
     dest: ./tmp/core
 
@@ -45,7 +45,7 @@ tasks:
     file: ./tmp/core/[SQL]/legacy.sql
 
   - action: download_github
-    src: https://github.com/esx-framework/ESX-Legacy-Addons/
+    src: https://github.com/esx-framework/ESX-Legacy-Addons
     ref: main
     dest: ./tmp/addons
 
