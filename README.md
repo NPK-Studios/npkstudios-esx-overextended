@@ -33,7 +33,22 @@ This recipe includes the following Overextended resources (always downloaded fro
 
 All Overextended resources are pre-configured in `overextended.cfg` with optimal settings.
 
-Game build: `3889` (The Kortz Center Heist).
+`esx_inventory` is removed during install, ox_inventory is used instead (ESX switches to it automatically).
+
+Game build: `3889` (mp2026_01 - The Kortz Center Heist), currently the latest FiveM build.
+
+## Server Listing (Cfx Portal)
+Since **21 October 2026** the FiveM server list no longer reads its details from `server.cfg`. `sv_hostname`, `sv_projectName`, `sv_projectDesc`, `tags`, `locale`, `load_server_icon` and `banner_detail` are deprecated.
+
+After installing, open the [Cfx Portal](https://portal.cfx.re/), select the server attached to your license key and fill in:
+- **Name / Tagline**
+- **Description**
+- **Tags** (max 5)
+- **Language**
+- **Icon / Banner**: you can use `NPKStudios_logo.png` from this repository
+- **Discord link**: in the Social section
+
+If you leave these empty, the server list shows *"Missing server data (must be configured in Portal)"*.
 
 Many more resources are included in this Recipe, or you can browse the [Cfx.re Releases board](https://forum.cfx.re/tag/esx) for more.
 

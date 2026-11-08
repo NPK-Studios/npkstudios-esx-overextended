@@ -112,7 +112,7 @@ tasks:
 
   # Remove conflicting ESX inventory (we use ox_inventory)
   - action: remove_path
-    path: ./resources/[esx_addons]/esx_inventory
+    path: ./resources/[core]/esx_inventory
 
   ## Cleanup
   - action: remove_path
